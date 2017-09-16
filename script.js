@@ -1,3 +1,3 @@
 $(document).ready(function() {
-alert("Epilepsy Warning")
+alert("Still WIP")
 });
