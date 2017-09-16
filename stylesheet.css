@@ -30,28 +30,7 @@
   .para {
     color: rgb(206, 206, 192);
     font-family: DejaVuSansMono;
-  }
-
-  .a1 {
-    margin-top: 20px;
-    color: rgb(164, 61, 75);
-    font-family: DejaVuSansMono;
-  }
-
-  .a1:link {
-    color: rgb(164, 61, 75);
-  }
-
-  .a1:visited {
-    color: rgb(164, 61, 75);
-  }
-
-  .a1:hover {
-    color: rgb(164, 61, 75);
-  }
-
-  .a1:active {
-    color: rgb(164, 61, 75);
+    margin: 20px;
   }
 
   .subtitle {
