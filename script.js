@@ -1,3 +1,3 @@
 $(document).ready(function() {
-alert("Still WIP")
+alesrt("Still WIP")
 });

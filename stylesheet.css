@@ -24,7 +24,7 @@
     font-family: DejaVuSansMono;
     margin-top: 10vh;
     color: rgb(130, 189, 111);
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .para {
@@ -65,4 +65,8 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     width: 30%;
     margin:0 auto;;
+  }
+
+  .wtaff {
+    color: rgb(164,61,75);
   }
