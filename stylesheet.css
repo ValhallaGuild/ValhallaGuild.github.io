@@ -54,7 +54,7 @@
     color: rgb(164, 61, 75);
   }
 
-  #overview {
+  .subtitle {
     font-family: DejaVuSansMono;
     color: rgb(78, 131, 169);
   }
@@ -69,4 +69,31 @@
 
   .wtaff {
     color: rgb(164,61,75);
+    text-decoration: underline;
+  }
+
+  .heading {
+    color: rgb(128,96,216);
+    font-family: DejaVuSansMono;
+    font-size: 20px;
+  }
+
+  .quote {
+    color: rgb(130, 189, 111);
+    font-family: DejaVuSansMono;
+    font-size: 8px;
+  }
+
+  a {
+    font-family: DejaVuSansMono;
+    color: rgb(6,168,148);
+    text-decoration: none;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    text-align: center;
+  }
+
+  a:hover {
+    color: white;
   }
