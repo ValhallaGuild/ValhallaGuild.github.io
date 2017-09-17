@@ -30,8 +30,7 @@
   .para {
     color: rgb(206, 206, 192);
     font-family: DejaVuSansMono;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin: 20px;
   }
 
   .subtitle {
