@@ -13,14 +13,32 @@
 <body>
 
 
-  <div class="bleck"></div>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#overview">Overview</a>
+  <a href="#members">Members</a>
+</div>
+
+<span class="this" onclick="openNav()">&#9776; </span>
+
+
   <h1 id="meme_fam"> “You worship your <span class="wtaff"><i>Gods</i></span>
      But you don't realize they see you as <span class="wtaff"><i>Ants</i></span>”</h1>
   <br>
   <br>
   <br>
   <br>
-  <h1 class="subtitle">Overview</h1>
+  <h1 class="subtitle" id="overview">Overview</h1>
   <br>
   <hr>
   <br>
@@ -32,7 +50,7 @@
   <br>
   <br>
   <br>
-  <h1 class="subtitle">Members</h1>
+  <h1 class="subtitle" id="members">Members</h1>
   <br>
   <hr>
   <br>
@@ -85,6 +103,17 @@
   <br>
 
   <p class="para">Coded by Bubble</p>
+
+  <script type="text/javascript">
+  /* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+} 
 
 
 </body>
