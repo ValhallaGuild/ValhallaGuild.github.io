@@ -125,8 +125,12 @@
   cursor:pointer;
   float: left;
   margin: -10px;
-  font-size: 30px;
   position: fixed;
-  top:5px;
+  top: 10px;
   left: 15px;
+}
+
+.bigbuttons {
+  width:30px;
+  height: 30px;
 }
