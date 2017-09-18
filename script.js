@@ -1,4 +1,4 @@
 $(document).ready(function() {
-alesrt("Still WIP")
-
+alesrt("Still WIP");
+console.log("Guys, Imma KYS")
 });
