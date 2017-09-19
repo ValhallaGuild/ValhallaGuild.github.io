@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+body {
+  background-color: #BDBDBD
+}
+
+.tophead {
+  font-family: IM Fell English SC;
+  font-size: 50px;
+}
