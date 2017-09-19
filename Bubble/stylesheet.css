@@ -1,3 +1,11 @@
+ @font-face {
+    font-family: "DejaVuSansMono";
+    src: url("./fonts/DejaVuSansMono.eot");
+    src: url("./fonts/DejaVuSansMono.eot?#iefix") format("embedded-opentype"), url("./fonts/DejaVuSansMono.otf") format("opentype"), url("./fonts/DejaVuSansMono.svg") format("svg"), url("./fonts/DejaVuSansMono.ttf") format("truetype"), url("./fonts/DejaVuSansMono.woff") format("woff"), url("./fonts/DejaVuSansMono.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
 * {
   margin: 0;
 }
@@ -15,4 +23,19 @@ body {
 .tophead {
   font-family: IM Fell English SC;
   font-size: 50px;
+  color: gray;
+}
+
+.heading {
+	font-family: Allerta Stencil;
+	font-size: 30px;
+	color: gray;
+	text-decoration: underline;
+}
+
+.para {
+	font-family: DejaVuSansMono;
+	color: rgb(58, 61, 75);
+	font-size: 20px;
+	margin: 20px;
 }
